@@ -1,0 +1,21 @@
+{
+    "name": "alexander/hexlet",
+    "description": "study project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "rndgaid@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "phpstan/phpstan": "^1.12"
+    }
+}
