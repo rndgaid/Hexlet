@@ -4,8 +4,8 @@ namespace Hexlet\App\IntroductionToOOP\encapsulation;
 
 class Rational
 {
-    protected int $numerator;
-    protected int $denominator;
+    private int $numerator;
+    private int $denominator;
 
     public function __construct(int $numerator, int $denominator)
     {
