@@ -7,10 +7,10 @@ require_once __DIR__ . '/../../../vendor/autoload.php';
 
 function reverse(Segment $segment): Segment
 {
-    $begin = new Point($segment->beginPoint->x, $segment->beginPoint->y);
-    $end = new Point($segment->endPoint->x, $segment->endPoint->y);
+    $begin = new Point($segment->getBeginPoint()->x, $segment->getBeginPoint()->y);
+    $end = new Point($segment->getEndPoint()->x, $segment->getEndPoint()->y);
 
-    return new Segment($begin, $end);
+    return new Segment($end, $begin);
 }
 
 $p1 = new Point(1, 10);
