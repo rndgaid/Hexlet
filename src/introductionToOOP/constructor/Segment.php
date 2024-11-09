@@ -24,4 +24,12 @@ class Segment
     {
         return $this->endPoint;
     }
+
+    public function __toString(): string
+    {
+        $beginStr = '(' . $this->getBeginPoint()->x . ', ' . $this->getBeginPoint()->y . ')';
+        $endStr = '(' . $this->getEndPoint()->x . ', ' . $this->getEndPoint()->y . ')';
+
+        return '[' . $beginStr . ', ' . $endStr . ']';
+    }
 }

@@ -18,5 +18,4 @@ $p2 = new Point(11, -3);
 
 $segment = new Segment($p1, $p2);
 $reversedSegment = reverse($segment);
-$p1->y = 125;
-//print_r($reversedSegment);
+echo $segment;
