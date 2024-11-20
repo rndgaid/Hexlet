@@ -17,7 +17,8 @@
     "require-dev": {
         "roave/security-advisories": "dev-latest",
         "squizlabs/php_codesniffer": "^3.0",
-        "phpstan/phpstan": "^1.12"
+        "phpstan/phpstan": "^1.12",
+        "phpunit/phpunit": "^11"
     },
     "require": {
         "league/commonmark": "^2.5"
