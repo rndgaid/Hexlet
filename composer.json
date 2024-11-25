@@ -1,26 +1,35 @@
 {
-    "name": "alexander/hexlet",
-    "description": "study project",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\App\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Alexander",
-            "email": "rndgaid@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require-dev": {
-        "roave/security-advisories": "dev-latest",
-        "squizlabs/php_codesniffer": "^3.0",
-        "phpstan/phpstan": "^1.12",
-        "phpunit/phpunit": "^11"
-    },
-    "require": {
-        "league/commonmark": "^2.5"
+  "name": "alexander/hexlet",
+  "description": "study project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hexlet\\App\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hexlet\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexander",
+      "email": "rndgaid@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.0",
+    "phpstan/phpstan": "^1.12",
+    "phpunit/phpunit": "^11"
+  },
+  "require": {
+    "league/commonmark": "^2.5",
+    "ext-http": "*",
+    "ext-mysqli": "*",
+    "ext-mbstring": "*",
+    "php-ds/php-ds": "^1.5"
+  }
 }
